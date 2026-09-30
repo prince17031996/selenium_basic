@@ -4,8 +4,8 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-import select
-#//div[@id='Alh6id']//ul//li
+
+
 class SearchUtility:
     def __init__(self):
         self.driver = webdriver.Chrome()
